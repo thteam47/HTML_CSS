@@ -1,0 +1,53 @@
+.container-2019{width:1200px;max-width:100%;padding:0 10px;margin-right:auto;margin-left:auto}
+.address_tuyendung{display:grid;grid-template-columns:25% 25% 25% 25%;text-align:center;color:#666;border:1px solid #e8e8e8;border-radius:5px}
+.address_tuyendung h4{padding:10px;cursor:pointer;margin:2px}
+.address_tuyendung .active h4{background:#243a76;border-radius:4px;color:#fff}
+.job .list_job{margin-top:12px}
+.job ul{margin:0;padding:0;border-radius:5px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.25)}
+.job ul li{border-bottom:1px solid #e3e3e3;padding:15px 20px;list-style:none}
+.job ul li:last-child{border-bottom:none}
+.job ul li:before{display:none}
+[hidden]{display:none!important}
+h5.name-job-text{float:left}
+.job ul li .name-job .name-job-text{vertical-align:middle;line-height:unset;margin:0}
+.job ul li .name-job a{width:100%;cursor:pointer;font-weight:700;display:inline-block;height:1.25rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.name-job .noti{border-radius:3px;width:46px;height:20px;background-color:#ed1b24;color:#fff;display:inline-block;text-align:center;line-height:20px;margin-left:10px;margin-top:4px}
+.deadline,.quantity,.treatment,.worktype{font-size:.85rem;white-space:nowrap}
+.treatment{width:50%}
+.quantity{width:15%}
+.deadline{width:30%; margin-left: 50px;}
+.deadline i,.quantity i,.treatment i{font-weight:900}
+.job ul li i{font-size:18px;color:#666}
+.job ul li .btn.jobapply{width:100px;font-size:.85rem;text-align:center;background:none!important;border:1px solid red;border-radius:5px;color:red!important}
+.job ul li .btn.jobapply i{color:#666;font-size:18px}
+.tab-content.list_job{display:none}
+.tab-content.list_job.current{display:block}
+.box_content_popup{position:relative}
+.close_popup{position:absolute;right:0;color:#000;background-color:#fff;border-color:#fff}
+.jMouwh{margin-top:16px;margin-bottom:18px}
+.bYSDpc{font-size:.85rem;color:#13314e;margin-bottom:5px;display:block}
+.bYSDpc .required{color:#ed1b24}
+.eSumex{width:100%!important;border-radius:5px!important;border:1px solid #e3e3e3!important;padding:8px!important;height:auto!important}
+.eSumex.error{border:1px solid #ed1b24}
+.gyDNhS{text-align:center}
+.kcAUjf{font-size:.85rem;margin-bottom:1rem;display:block;cursor:pointer;color:#ed1b24;margin-top:1rem;font-weight:600}
+.gRLVke{display:none!important}
+.evsriz{display:inline-block;outline:0;border:none;padding:10px;cursor:pointer;color:#fdfdfd;border-radius:5px;z-index:1;width:100%;background:#243a76}
+.jMouwh input{outline:0!important}
+#modal{background-color:rgba(0,0,0,.4)}
+.form_ungtuyen.intro_fix{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;overflow:hidden;outline:0;background-color:rgba(0,0,0,.8);margin:auto}
+.form_ungtuyen.intro_fix form{background:#fff;padding:10px;border-radius:5px;width:30%;margin:6% auto auto;position:relative}
+.deleteform{display:none}
+.deleteform.deletefix{display:block;cursor:pointer;color:#fff;font-size:18px;position:absolute;right:10px;top:10px;width:30px;height:30px;line-height:30px;text-align:center;background:#ed1b24;border-radius:9999px}
+.listjob{align-items:center}
+.listjob-2{margin-left:10px;margin-right:20px;width:32%}
+.listjob-3{display:flex;width:calc(68% - 140px)}
+@media (min-width:1650px){.container-2019{width:1650px}}
+.ahuhu{padding:10px;color:#fff;font-size:1rem;font-weight:700;text-transform:uppercase;text-align:center;margin-bottom:10px;border-radius:5px;background:repeating-linear-gradient(to right,#ed1b24 0,#243a76 50%,#ed1b24 100%);width:100%;background-size:200% auto;background-position:0 100%;animation:gradient 2s infinite;animation-fill-mode:forwards;animation-timing-function:linear}
+.tuyendung_2021{font-family:Roboto,sans-serif}
+.listjob-header div{color:#555;font-size:1rem;font-weight:700}
+.first-li-listjob{background:#fbfbfb;padding:10px 20px!important;border-radius:6px 6px 0 0}
+.name-job-text a{text-transform: capitalize;}
+@media (max-width:1649px){#an-di-ban-oi-1{-ms-flex:0 0 80%;flex:0 0 80%;max-width:80%
+}
+#an-di-ban-oi-2{-ms-flex:0 0 20%;flex:0 0 20%;max-width:20%}}

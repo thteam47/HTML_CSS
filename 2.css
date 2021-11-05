@@ -1,0 +1,26 @@
+.anh {
+    width: 200px;
+}
+.dau {
+    display: flex;
+    width: 700px;
+
+}
+.dau .anh1 {
+    width: 500px;
+
+}
+.dau p {
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;;
+    font-size: 12px;
+    font-family: arial;
+}
+.chu hr {
+    width: 150px;
+    margin-left: 10px;
+}
+img {
+    width: 100%;
+}

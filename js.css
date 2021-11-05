@@ -1,0 +1,24 @@
+a.dngaz:link, a.dngaz:visited
+{
+color:blue;
+text-decoration:none;
+}
+ 
+a.dngaz:hover
+{
+color:rgb(9, 255, 9);
+font-weight:bold;
+}
+ 
+a.dngaz:active
+{
+background:yellow;
+}
+
+.username:focus
+{
+border:1px solid #808451;
+-moz-box-shadow:0 0 8px #808451;
+-webkit-box-shadow:0 0 15px #808451;
+box-shadow:0 0 15px #808451;
+}

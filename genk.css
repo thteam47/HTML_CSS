@@ -1,0 +1,87 @@
+.menu_top {
+    list-style: none;
+    background: #2e2e2e;
+    height: 25px;
+    position: relative;
+    z-index: 0;
+}
+
+.menu_top li a {
+    font-family: SFD-Medium;
+    font-size: 12px;
+    line-height: 25px;
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu_top li {
+    display: inline-block;
+    margin-right: 22px;
+    
+}
+.menu_top ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+.menu_top li a:hover{
+    color: white;
+    transition: 0.3s;
+}
+.menu_genk .logo_genk {
+    background: url(https://genk.mediacdn.vn/web_images/sprite-genk_v11.png);
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    background: black;
+    background-color: black;
+    display: block;
+    margin-left: 50px;
+    padding: 10px;
+}
+.htc {
+    margin-left: 50px;
+    width: 140px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+.menu_genk {
+    background: black;
+    margin-top: -21px;
+}
+
+.menu_genk li  a {
+    text-decoration: none;
+    font-family: SFD-Medium;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 48px;
+    height: 45px;
+    display: block;
+
+}
+
+.menu_genk ul li{
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+.menu_genk_list {
+    margin-top: -45px;
+    margin-left: 195px;
+}
+
+.menu_genk li a:hover{
+    color:#ed2e2e;
+    transition: 0.3s;
+}

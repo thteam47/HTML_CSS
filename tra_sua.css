@@ -1,0 +1,489 @@
+.web {
+    display: inline-block;
+    margin-bottom: 50px;
+    color: rgb(255, 0, 0);
+}
+
+
+.slide .carousel-indicators{
+    visibility: hidden;
+}
+.slide .carousel .fa {
+    font-size: 50px;
+}
+.slide img {
+    width: 100%;
+    height: 450px;
+}
+.slide .carousel .carousel-control-next{
+    right: -50px;
+}
+.slide .carousel .carousel-control-prev{
+    left: -50px;
+}
+
+.top {
+    background-color: yellowgreen;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.top .text {
+    font-family: segeo ui light;
+    font-size: 13px;
+    color: black;
+    width: 75%;
+    margin-right: 30px;
+    display: block;
+    padding: 10px 40px;
+}
+
+.dia_chi {
+    margin-right: 70px;
+    display: inline-block;
+}
+.phone {
+    display: inline-block;
+}
+.top .mxh {
+    width: 25%;
+    text-align: right;
+    padding: 5px 25px;
+    display: block;
+}
+.icon{
+    margin-right: 15px;
+}
+.mxh .icon img {
+    width: 25px;
+    height: 25px;
+}
+
+.menu_banner {
+    display: flex;
+    width: 100%;
+}
+.slide {
+    top: 0px;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.menu .anh {
+    width: 13%;
+}
+.anh img {
+    margin-top: 8%;
+    width: 120px;    
+    float: right;
+    height: 70px;
+}
+.menu .list_menu {
+     width: 65%;
+
+}
+.list_menu > ul{
+    list-style: none;
+    display: flex;
+}
+.list_menu > ul >li {}
+.list_menu > ul >li a {
+    text-decoration: none;
+    padding: 0px 25px;
+    color: #333333;
+}
+.tp_con {
+    height: 20px;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'OpenSansBold';
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.4s;
+    line-height: 100px;
+
+}
+.tp_con .layer1{
+}
+.tp_con:hover .layer1{
+    color: rgb(255, 0, 0);
+}
+
+.tp_con .layer2{
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.6s;
+    width: 200px;
+    height: 10px;
+    text-align: left;
+}
+.tp_con:hover .layer2{
+    visibility: visible;
+    opacity: 1;
+    height: 170px;   
+}
+.tp_con .layer2 ul{
+    list-style: none;
+    padding-left: 0px ;
+}
+
+.tp_con .layer2 ul li a{
+    display: block;
+    width: 200px;
+    padding: 5px 10px;
+    line-height: 30px;
+    font-size: 16px;
+    transition: 0.4s;
+    transition-delay: 0.1s;
+}
+.tp_con .layer2 ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+.tp_con .layer2 ul li{
+    display: block;
+}
+.menu .tim_kiem {
+    width: 22%;
+   height: 100%;
+   margin-top: 25px;
+   position: relative;
+}
+.menu .tim_kiem input[type=text]{
+    width: 150px;
+    height: 40px;    
+    outline: none;
+    border: none;
+}
+.menu .tim_kiem .tren {
+    width: 250px;
+    height: 40px;
+    position: relative;
+}
+.menu .tim_kiem .tren form{
+    border-bottom: 1px solid gray;
+
+}
+.menu .tim_kiem .tren .search {
+    font-family: segoe ui light;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu .tim_kiem .tren button{
+    float: right;
+    height: 100%;
+    width: 40px;
+    outline: none;
+    border: none;
+    
+}
+.menu .tim_kiem .tren button img{
+    width: 20px;
+    height: 20px;
+}
+
+.clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clear {
+    clear: both;
+}
+.gioi_thieu {
+    display: flex;
+    margin-top: 50px;
+    top: 100px;
+    width: 100%;
+    height: 350px;
+}
+.gioi_thieu .anh {
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+.gioi_thieu .anh img {
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    transition: 0.6s;
+}
+.gioi_thieu .anh:hover img{
+    transform: scale(1.02);
+}
+.gioi_thieu .text{
+    width: 60%;
+    height: 100%;
+    display: block;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.gioi_thieu .text h1{
+    font-family: 'UVFSlimTony';
+    color: black;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.gioi_thieu .text h6{
+    margin-top: 20px;
+    font-family: 'OpenSansRegular';
+    font-size: 20px;
+    color: #494949;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.gioi_thieu .text a{
+    color: #147900;
+    font-family: 'RobotoRegular';
+    font-size: 18px;
+    text-decoration: underline;
+}
+.san_pham{
+    display: inline-block;
+    width: 280px;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+}
+
+.san_pham .anh img{ 
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    transition: 0.5s;
+}
+.san_pham .anh:hover img{
+    transform: scale(1.1);;
+}
+.san_pham .anh{
+    height: 280px;
+    width: 100%;
+}
+
+.san_pham h2{
+    font-family: segoe ui light;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.san_pham h5{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+.san_pham_ban_chay{
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.text-1{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    margin: 30px 0px;
+    padding: 20px 40px;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    position: relative;
+
+    
+}
+.text-1::before{
+    left: 10px;
+}
+.text-1::after{
+    right: 10px;
+}
+.text-1::before, .text-1::after{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e3c383;
+    position: absolute;
+    top: 35px;
+    content: "";
+}
+.san_pham_ban_chay  h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 35px;
+    text-transform: uppercase
+    
+}
+.san_pham_ban_chay .list_sp{
+    display: flex;
+    margin: auto;
+    width: 900px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.san_pham_ban_chay .list_sp .san_pham{
+    margin-top: 40px;
+}
+
+.dat_hang {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.dat_hang h1{
+    margin-top: 60px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 35px;
+    text-transform: uppercase
+}
+.dat_hang .form {
+    width: 100%;
+    display: block;
+}
+.dat_hang .form .anh img {
+    width: 200px;
+    height: 200px;  
+}
+.dat_hang .form ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0px 60px;
+}
+.dat_hang .form .anh {
+    padding-right: 25px;
+    display: inline-block;
+}
+.dat_hang ul li {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+.dat_hang .form .noi {
+    margin-right: 25px;
+    position: relative;
+}
+.dat_hang .form .noi img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0px;
+}
+.dat_hang .form {
+    width: 100%;
+}
+.footer{
+    color: white;
+    font-family: segoe ui light;
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-size: 100% 400px;
+    background-image: url(https://vietcoffee.asia/wp-content/uploads/2019/02/thumbnail_large-3.jpg);
+}
+
+.footer::before{
+    content: '';
+    background: rgba(51, 51, 51);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.81;
+}
+.footer .text{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.footer .text .logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .text .logo img {
+    width: 250px;
+}
+.footer .text .info{
+    width: 35%;
+    height: 100%;
+    
+
+}
+.footer-title {
+    text-align: center;
+    font-family: segoe ui light;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: rgb(255, 190, 70);
+}
+.footer .text .info .list_info{
+    margin-left: -10px;
+}
+.footer .text .info .list_info ul{
+    list-style: none;
+}
+.footer .text .info .list_info ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .text .info .mxh{
+    margin-top: 35px;
+}
+.footer .text .info .mxh ul{
+    list-style: none;
+    display: flex;
+}
+.footer .text .info .mxh ul li a{
+    text-decoration: none;
+    color: rgb(255, 190, 70);
+    padding-right: 45px;
+    font-size: 30px;
+}
+.footer .text .me{
+    width: 20%;
+    height: 100%;
+}
+
+.footer .text .me .list_me{
+}
+.list_me ul{
+    list-style: none;
+    margin-left: 10px;
+}
+.list_me ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .text .chinh_sach{
+    width: 20%;
+    height: 100%;
+}
